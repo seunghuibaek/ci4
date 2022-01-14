@@ -1,0 +1,40 @@
+CRITICAL - 2022-01-14 08:11:35 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\devhome\01.php\01.ci4test\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\devhome\01.php\01.ci4test\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\devhome\01.php\01.ci4test\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\devhome\01.php\01.ci4test\public\index.php(28): require('...')
+#4 {main}
+CRITICAL - 2022-01-14 08:11:35 --> Uncaught ErrorException: strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\devhome\01.php\01.ci4test\system\Validation\FormatRules.php:253
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\devhome\01.php\01.ci4test\system\Validation\FormatRules.php(253): strtolower()
+#2 C:\devhome\01.php\01.ci4test\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip()
+#3 C:\devhome\01.php\01.ci4test\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 C:\devhome\01.php\01.ci4test\system\Debug\Exceptions.php(229): include('...')
+#5 C:\devhome\01.php\01.ci4test\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 C:\devhome\01.php\01.ci4test\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render()
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-14 08:11:48 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\devhome\01.php\01.ci4test\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\devhome\01.php\01.ci4test\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\devhome\01.php\01.ci4test\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\devhome\01.php\01.ci4test\public\index.php(28): require('...')
+#4 {main}
+CRITICAL - 2022-01-14 08:11:48 --> Uncaught ErrorException: strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\devhome\01.php\01.ci4test\system\Validation\FormatRules.php:253
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\devhome\01.php\01.ci4test\system\Validation\FormatRules.php(253): strtolower()
+#2 C:\devhome\01.php\01.ci4test\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip()
+#3 C:\devhome\01.php\01.ci4test\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 C:\devhome\01.php\01.ci4test\system\Debug\Exceptions.php(229): include('...')
+#5 C:\devhome\01.php\01.ci4test\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 C:\devhome\01.php\01.ci4test\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render()
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
